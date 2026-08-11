@@ -37,6 +37,6 @@ custom_fields:
   field_type: author_bio
   description: Upcoming and ongoing contests from the WA7BNM calendar
   github_url: https://github.com/schrockwell/trmnl-contest-cal
-name: Amateur Radio Contest Calendar
+name: Ham Radio Contest Calendar
 description: ''
 refresh_interval: 60
