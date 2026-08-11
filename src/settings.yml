@@ -39,4 +39,4 @@ custom_fields:
   github_url: https://github.com/schrockwell/trmnl-contest-cal
 name: Amateur Radio Contest Calendar
 description: ''
-refresh_interval: 15
+refresh_interval: 60
