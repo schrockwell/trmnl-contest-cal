@@ -1,0 +1,12 @@
+{% assign now = trmnl.system.timestamp_utc %}
+{% assign live_count = 0 %}
+{% assign next_count = 0 %}
+{% for c in contests %}
+  {% if c.end_ts > now %}
+    {% if c.start_ts <= now %}
+      {% assign live_count = live_count | plus: 1 %}
+    {% else %}
+      {% assign next_count = next_count | plus: 1 %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
